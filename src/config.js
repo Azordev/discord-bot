@@ -48,6 +48,7 @@ const SCHEDULE_MESSAGES = {
     ? csvParser(process.env.SCHEDULED_MESSAGES)
     : [],
   timeZone: process.env.TIME_ZONE,
+  pathMarkdownFolder: '../../../markdown-files',
 };
 
 const SCHEDULE_CALENDAR = {
